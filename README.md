@@ -9,3 +9,4 @@ A very minimal fake academic paper prepared with and without a hidden AI reviewe
 - **ChatGPT Review of Garbage_Paper_v2.pdf**: ChatGPT review of v2 (no hidden prompts)
 - **CoPilot Review of Garbage_Paper_v1.pdf**: MS CoPilot review of v1 (hidden prompt)
 - **CoPilot Review of Garbage_Paper_v2.pdf**: MS CoPilot review of v2 (no hidden prompts)
+- **promptHunter.py**: A simple script that can detect and reveal this kind of hidden text
