@@ -17,7 +17,7 @@ def analyseDoc(fname):
         for b in blocks:
             for l in b["lines"]:
                 for s in l["spans"]:
-                    # Thresholds are arbitrary, but seem to be a reasonable comprompise
+                    # Thresholds are arbitrary, but seem to be a reasonable compromise
                     if rgbIntensity(s['color']) > 180 and s["size"] < 3:
                         print(f'Page {p+1}:')
                         print(f"Text: '{s["text"]}'")
